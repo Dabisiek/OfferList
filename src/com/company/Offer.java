@@ -1,13 +1,9 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Offer {
     private String localization;
     private int numbersOfRooms;
     private double rentalPrice;
-
-    private Scanner input = new Scanner(System.in);
 
     public Offer(String localization, int numbersOfRooms, double rentalPrice) {
         this.localization = localization;
